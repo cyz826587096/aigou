@@ -1,0 +1,13 @@
+server:
+  port: 7001
+eureka:
+  instance:
+    namespace: www.eureka-7001.com
+  client:
+    fetch-registry: false
+    register-with-eureka: false
+    serviceUrl:
+          defaultZone: http://127.0.0.1:7001/eureka/
+spring:
+  application:
+    name: AIGOU_EUREKA
